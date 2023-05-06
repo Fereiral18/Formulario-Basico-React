@@ -28,7 +28,7 @@ const Form = () => {
     console.log("Password:", password);
     console.log("profesion:", profesion);
     console.log("genero:", gender);
-    console.log("campos de trabajo:", agree);
+    console.log("condiciones:", agree);
   };
   return (
     <form onSubmit={handleSubmit}>
